@@ -15,6 +15,19 @@
     top: 0;
     margin: auto;
   }
+
+  .video-player-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .video-player-img img{
+    width: 500px;
+  }
 }
 
 * {
@@ -24,6 +37,11 @@
 body {
   font-size: 16px;
 }
+
+.prom{
+  width: 700px;
+}
+
 
 .fb-comments {
   border: 1px solid #e9ebee;
@@ -272,3 +290,33 @@ tr {
       font-style: italic;
       text-shadow: #000000 0px 1px 0px;
     }
+
+    .tit-com{
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+      align-items: center;
+    }
+
+    h3{
+      margin: 4%;
+      padding-left: 8%;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #063186;
+    }
+
+    h7{
+      color: lightgreen;
+    }
+
+    h6{
+        color: #33ff00;
+        margin-top: -4%;
+        margin-bottom: 10%;
+    }
+
+    .col-lg-8 > img {
+      margin-bottom: 5%;
+    }
+  
